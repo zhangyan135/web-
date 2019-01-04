@@ -1,0 +1,275 @@
+/*
+* @Author: lenovo
+* @Date:   2018-12-10 19:24:37
+* @Last Modified by:   lenovo
+* @Last Modified time: 2019-01-01 13:35:44
+*/
+.daa{
+	width: 1260px;
+	height: 200px;
+	background-color: white;
+	z-index: 999;
+	margin-top: -10px;
+}
+.da{
+	height: 50px;
+	width: 1260px;
+}
+.t1{
+	 height: 50px;
+     width: 100px;
+     margin-left: 50px;
+     font-size:15px;
+     color:#9ba4bf;
+     margin-right:400px;
+     float: left;
+     margin-top: -15px;
+}
+.tou1{
+   margin-right: 10px;
+}
+.biaotou{
+	width: 100px;
+	height: 50px;	
+	float:left;
+}
+.lianjie{
+	width: 600px;
+	height: 50px;
+	float: left;
+}
+.a{
+	color:#9ba4bf;
+	text-decoration: none;
+}
+.sou{
+	padding-left: 50px;
+	height:85px;
+	width: 1260px;
+}
+.sou1{
+	height: 80px;
+	width: 80px;
+}
+.tianxie{
+    height: 30px;
+    width: 500px;
+    float: left;
+    border:4px #fe6c00 solid;
+    margin-left: 250px;
+    color: #a2a26d;
+    margin-top: -50px;
+}
+.tian{
+	background-color: #fe6c00;
+	height: 40px;
+	width: 100px;
+	margin-left: 758px;
+	float: left;
+	margin-top: -52px;
+	color: white;
+}
+.rexian{
+	width: 100px;
+	height: 60px;
+	float: left;
+	margin-left: 920px;
+	margin-top: -50px;
+	font-size: 10px;
+	text-align: center;
+	border:1px #e7e6e3 solid;
+}
+.rexian1{
+	width: 100px;
+	height: 60px;
+	float: left;
+	margin-left: 1020px;
+	margin-top: -62px;
+	font-size: 10px;
+	text-align: center;
+	border:1px #e7e6e3 solid;
+}
+.wenti{
+	float: left;
+	margin-left: 1120px;
+	text-decoration: none;
+	margin-top: -60px;
+}
+.xiang{
+	width: 1000px;
+	height: 50px;
+	float: left;
+	padding-left: 300px;
+	/* margin-top: -110px; */
+}
+.xiang>a{
+   text-decoration: none;
+   margin-right: 5px;
+}
+.fenlei{
+	width: 150px;
+	height:440px;
+	float: left;
+}
+.tu{
+	width: 850px;
+	height: 30px;
+	float: left;
+	position: relative;
+}
+.tu>a{
+	text-decoration:none;
+	color: black;
+	margin-left: 50px; 
+}
+ul,li{
+	list-style: none;
+}
+.box{
+	width: 809px;
+	height: 361px;
+	border: 1px solid red;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	/* display: none; */
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 300px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+}
+.gonggao{
+	width: 210px;
+	height:560px;
+	float:left;
+	margin-left: 30px;
+	position: 100px;
+}
+.gong{
+	width: 210px;
+	height:280px;
+	overflow:hidden;
+	line-height: 25px;
+	border-bottom: solid 1px grey;
+	position:relative;
+}
+#gong ul{
+	 list-style: none;
+	 position: absolute;  
+	 font-size: 13px;  
+}
+
+.gao{
+	width: 210px;
+	height: 120px;
+	padding-top: 20px;
+}
+#xuanfu{
+	width:100px;
+	height: 470px;
+	position:fixed;
+}
+#xbox{
+	margin-top: -5px;
+	width: 50px;
+	height: 100px;
+	margin-left: 1300px;
+}
+#xbox1{
+	margin-top: -5px;
+	width: 110px;
+	height: 120px;
+	margin-left: 1300px;
+	background-color: #fd9a6e;
+}
+#xbox2{
+	margin-top: -5px;
+	width: 110px;
+	height: 132px;
+	margin-left: 1300px;
+	background-color: #fd9a6e;
+}
+#xbox3{
+	margin-top: -5px;
+	width: 50px;
+	height: 100px;
+	margin-left: 1300px;
+}
+.kefu{
+	width: 150px;
+	height:200px;
+	float: left;
+}
+.liutiao{
+	margin-left: 150px;
+	width: 1100px;
+	height: 200px;
+	float: left;
+}
+.zhinan{
+	width: 80px;
+	height: 180px;
+	float: left;
+	margin-left: 67px;
+}
+.zhinan1{
+	width: 120px;
+	height: 150px;
+	float: left;
+	margin-left: 90px;
+	padding-top: 15px;
+}
+.xialian{
+	width: 1280px;
+	height: 130px;
+	float: left;
+}
+.di{
+	width: 1000px;
+	height: 60px;
+	padding-left: 210px;
+	float: left;
+}
